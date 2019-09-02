@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="foot.ico">
+        <title>Football</title>
+        <style>
+            body {
+                background-color: black;
+                color: white;
+                text-align: center
+            }
+            h1 {
+                color: rgb(189, 6, 6);
+            }
+            h2 {
+                text-decoration: underline;
+            }
+            nav {
+                position:fixed;
+                width: 100%;
+                top:0;
+                z-index: 100;
+            }
+            nav ul {
+                padding: 0px;
+                margin: 0px;
+                list-style-type: none;
+            }
+            nav li {
+                display: inline-block;
+                width: 19%;
+                height: 30px;
+                margin: 0px;
+                padding: 0px;
+                border: 1px solid white;
+                line-height: 30px;
+                background-color: rgb(189, 6, 6);
+            }
+            nav li a {
+                display: block;
+                text-decoration: none;
+            }
+            nav li:hover {
+                font-weight: bold;
+                background-color: yellow;
+            }
+            nav a:link {
+                color: orange;
+            }
+            nav a:visited {
+                color: rgb(207, 175, 175);
+            }
+            #top {
+                margin-top: 50px;
+            }
+            #psg {
+                margin: 50px 200px 100px 200px;
+                border: 1px solid white;
+                padding-bottom: 500px;
+            }
+            #terrain {
+                position: absolute;
+                z-index: 1;
+                left: 500px;;
+            }
+            #compo_psg {
+                line-height: 70px;
+                text-align: center;
+                position: absolute;
+                z-index: 2;
+                left: 530px;
+                padding-top: 20px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            #compo_barça {
+                line-height: 88px;
+                text-align: center;
+                position: absolute;
+                z-index: 2;
+                left: 535px;
+                margin-top: 12px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+	    </style>
+    </head>
+    <body>
+        <nav>
+        <ul>
+            <li><a href="Accueil.html">Accueil</a></li>
+            <li><a href="Coldplay.html">Coldplay</a></li>
+            <li><a href="Foot.html">Football</a></li>
+            <li><a href="Nunu.html">Nunu</a></li>
+            <li><a href="Moi.html">Moi</a></li>
+        </ul>
+        </nav>
+        <h1 id="top">PARIS SAINT-GERMAIN</h1>
+        <img src="https://ssl.gstatic.com/onebox/media/sports/logos/mcpMspef1hwHwi9qrfp4YQ_96x96.png" 
+            var="logo PSG" width="150px">
+        <div id="psg">
+            <h2>L'équipe-type</h2>
+                <img id="terrain" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Soccer.Field_Transparant.png/180px-Soccer.Field_Transparant.png"
+                width="350px">
+                <p id="compo_psg">Cavani<br>
+                Di Maria  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mbappé<br>
+                Neymar<br>
+                Marquinhos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Verratti<br>
+                Bernat &nbsp; Kimpembe &nbsp; Thiago Silva &nbsp; Alves<br>
+                Buffon</p>
+        </div>
+        <h1 id="barça_link">FC BARCELONA</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/Logo_FC_Barcelona.svg/559px-Logo_FC_Barcelona.svg.png" 
+            var="logo Barça" width="150px">
+        <div id="psg">
+            <h2>L'équipe-type</h2>
+                <img id="terrain" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Soccer.Field_Transparant.png/180px-Soccer.Field_Transparant.png"
+                width="350px">
+                <p id="compo_barça">Suarez<br>
+                Dembele  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Messi<br>
+                Arthur &nbsp; &nbsp; Busquets &nbsp; &nbsp; Rakitic<br>
+                Jordi Alba &nbsp; Umtiti &nbsp; Piqué &nbsp; S. Roberto<br>
+                Ter Stegen</p>
+        </div>
+        <h4><a id="retour" href="#top">Retour en haut de la page ↑</a></h4>
+    </body>
+</html>
